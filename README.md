@@ -1,5 +1,16 @@
 # Project 2: Tracking User Activity
 
+This README.md will start with a description of each of the files in the directory. The description of the project will follow afterwards.
+
+- Project_2_Report.ipynb
+    * This is
+- SparkCode.ipynb
+    * This is
+- assessments-attempts-20180128-121051-nested.json
+- docker-compose.yml
+- isaacvernon1-history.txt
+- isaacvernon1.txt
+
 In this project, you work at an ed tech firm. You've created a service that
 delivers assessments, and now lots of different customers (e.g., Pearson) want
 to publish their assessments on it. You need to get ready for data scientists
