@@ -34,6 +34,9 @@ docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHO
 # Get out of pyspark after work is done in there (pyspark code in SparkCode.ipynb)
 CTRL C to exit 
 
+# Test to make sure write to HDFS went through (done in second command line)
+docker-compose exec cloudera hadoop fs -ls /tmp/
+
 # Take down cluster
 docker-compose down
 
